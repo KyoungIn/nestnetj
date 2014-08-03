@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     
+       <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" 
+            android:gravity="center_horizontal" 
+            android:background="@drawable/object"	>
+
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="현재 집 상태"
+				android:layout_gravity="center_vertical" 
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+
+    <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" >
+
+           <TableRow
+               android:id="@+id/tableRow2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" >
+
+               <ImageView
+                   android:id="@+id/imageView1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/non_boder" />
+
+               <ImageView
+                   android:id="@+id/imageView2"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:paddingLeft="10dp"
+                   android:src="@drawable/brightness" />
+
+           </TableRow>
+
+           <TableRow
+               android:id="@+id/tableRow3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" >
+
+               <ImageView
+                   android:id="@+id/imageView4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/non_coffee" />
+
+               <ImageView
+                   android:id="@+id/imageView3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="10dp"
+                   android:src="@drawable/non_muscle" />
+
+           </TableRow>
+
+
+
+       </TableLayout>
+
+</LinearLayout>

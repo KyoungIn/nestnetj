@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="회원 가입"
+                android:background="@drawable/object"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/ID_tableRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="ID" />
+
+                <EditText
+                    android:id="@+id/ID_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8" />
+
+                <Button
+                    android:id="@+id/check_repeatness"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   
+                    android:text="중복 확인" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PW_tableRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/menu" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="PW" />
+
+                <EditText
+                    android:id="@+id/PW_editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:inputType="textPassword" >
+
+                    <requestFocus />
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/NFC_tableRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/menu">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="NFC " />
+
+                <TextView
+                    android:id="@+id/NFC_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NFC버튼을 눌러주세요"
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:id="@+id/NFC_ID_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NFC_ID" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/unique_number_tableRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/menu" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="고유번호 " />
+
+                <TextView
+                    android:id="@+id/unique_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_gravity="center" 
+                    android:text="번호 받기 버튼을 눌러주세요" />
+
+                <Button
+                    android:id="@+id/unique_number_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:text="번호 받기" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/label_tableRow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="가족 직책" />
+
+                <Spinner
+                    android:id="@+id/label_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:prompt="@string/planet_prompt" />
+            </TableRow>
+
+        </TableLayout>
+
+       <TableRow
+            android:id="@+id/entry_cancel_tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:background="@drawable/menu">
+
+            <Button
+                android:id="@+id/entry_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회원가입" />
+
+ 
+
+        </TableRow>
+    
+
+</LinearLayout>
