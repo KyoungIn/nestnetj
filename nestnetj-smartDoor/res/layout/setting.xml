@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+       <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" 
+            android:gravity="center_horizontal" 
+            android:background="@drawable/object"	>
+
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Setting"				android:layout_gravity="center_vertical" 
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.03" >
+
+       <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu" >
+
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical" 
+               android:paddingLeft="10dp"
+               android:text="개인 정보"
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/menu" >
+           
+            
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical" 
+               android:paddingLeft="10dp"
+               android:text="NFC"
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/menu" >
+           
+            
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical" 
+               android:paddingLeft="10dp"
+               android:text="알림 설정"
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+             android:background="@drawable/menu">
+           
+            
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical" 
+               android:paddingLeft="10dp"
+               android:text="원격 설정"
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+             android:background="@drawable/menu">
+           
+            
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical" 
+               android:paddingLeft="10dp"
+               android:text="출입 기록 설정"
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+             android:background="@drawable/menu">
+           
+            
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical" 
+               android:paddingLeft="10dp"
+               android:text="로그아웃"
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
