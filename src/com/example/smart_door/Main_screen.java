@@ -20,7 +20,7 @@ public class Main_screen extends Activity{
 		setContentView(R.layout.main);
 		
 
-		nowHomeState = (Button)findViewById(R.id.now_home_state_button);//회원가입 버튼
+		nowHomeState = (Button)findViewById(R.id.now_home_state_button);
 		
 		nowHomeState.setOnClickListener(new OnClickListener() {
 			
@@ -32,7 +32,7 @@ public class Main_screen extends Activity{
 			}
 		});
 
-		 remoteControl = (Button)findViewById(R.id.remote_control_button);//회원가입 버튼
+		 remoteControl = (Button)findViewById(R.id.remote_control_button);
 		
 		 remoteControl.setOnClickListener(new OnClickListener() {
 			
